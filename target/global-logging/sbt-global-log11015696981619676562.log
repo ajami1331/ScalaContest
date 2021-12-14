@@ -1,0 +1,19 @@
+[debug] > Exec(__runWatch console0, Some(045b80ed-bbcc-4d38-8d1c-56965027e33c), Some(CommandSource(console0)))
+[debug] > Exec(sbtStashOnFailure, None, Some(CommandSource(console0)))
+[debug] > Exec(__preWatch console0, None, Some(CommandSource(console0)))
+[debug] > Exec(run, None, Some(CommandSource(console0)))
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to E:\code\ScalaContest\target\scala-2.11\classes ...
+[error] E:\code\ScalaContest\src\main\scala\Main.scala:11:14: value -= is not a member of Int
+[error]   Expression does not convert to assignment because receiver is not assignable.
+[error]     minIndex -= 1
+[error]              ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 2 s, completed Sep 7, 2021, 2:32:06 AM
+[debug] > Exec(resumeFromFailure, None, Some(CommandSource(console0)))
+[debug] > Exec(sbtPopOnFailure, None, Some(CommandSource(console0)))
+[debug] > Exec(__postWatch console0, None, Some(CommandSource(console0)))
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(__waitWatch console0, None, None)

@@ -1,0 +1,11 @@
+[debug] Packaging E:\code\ScalaContest\target\scala-2.12\scalacontest_2.12-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	Main$.class
+[debug] 	  E:\code\ScalaContest\target\scala-2.12\classes\Main$.class
+[debug] 	Main.class
+[debug] 	  E:\code\ScalaContest\target\scala-2.12\classes\Main.class
+[debug] 	Solution$$anon$1.class
+[debug] 	  E:\code\ScalaContest\target\scala-2.12\classes\Solution$$anon$1.class
+[debug] 	Solution.class
+[debug] 	  E:\code\ScalaContest\target\scala-2.12\classes\Solution.class
+[debug] Done packaging.

@@ -1,0 +1,4 @@
+[debug] [scalacontest-build] Classpath dependencies List()
+[debug] [scalacontest-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'scalacontest-build' to 'E:\code\ScalaContest\project\.bloop\scalacontest-build.json'
+[success] Generated .bloop\scalacontest-build.json

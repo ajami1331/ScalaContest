@@ -1,0 +1,5 @@
+[warn] E:\code\ScalaContest\src\main\scala\Main.scala:16:56: match may not be exhaustive.
+[warn] It would fail on the following input: (_, false)
+[warn]     lazy val f: ((TreeNode, Boolean)) => Int = memoize {
+[warn]                                                        ^
+[warn] one warning found

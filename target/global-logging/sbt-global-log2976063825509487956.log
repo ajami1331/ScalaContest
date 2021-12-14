@@ -1,0 +1,230 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\clown\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\clown\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.5 (Oracle Corporation Java 14.0.1)
+[debug]       Load.loadUnit: plugins took 83.6286ms
+[debug]       Load.loadUnit: defsScala took 0.2412ms
+[debug] [Loading] Scanning directory C:\Users\clown\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\clown\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 13.3499 ms
+[debug]           Load.resolveProject(global-plugins) took 37.0409ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\clown\.sbt\1.0\plugins, plugins: List(<none>))) took 67.7356ms
+[debug] [Loading] Done in C:\Users\clown\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 83.6617ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.1781ms
+[debug]     Load.loadUnit(file:/C:/Users/clown/.sbt/1.0/plugins/, ...) took 175.9287ms
+[debug]   Load.apply: load took 344.4557ms
+[debug]   Load.apply: resolveProjects took 4.395ms
+[debug]   Load.apply: finalTransforms took 45.279ms
+[debug]   Load.apply: config.delegates took 5.9568ms
+[debug]   Load.apply: Def.make(settings)... took 297.8874ms
+[debug]   Load.apply: structureIndex took 66.029ms
+[debug]   Load.apply: mkStreams took 1.0465ms
+[info] loading global plugins from C:\Users\clown\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 2617.2726ms
+[debug]                       Load.loadUnit: plugins took 21.6662ms
+[debug]                       Load.loadUnit: defsScala took 0.0026ms
+[debug] [Loading] Scanning directory E:\code\ScalaContest\project\project\project
+[debug]                         Load.loadUnit: mkEval took 3.7219ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in E:\code\ScalaContest\project\project\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.4229 ms
+[info] loading settings for project scalacontest-build-build-build from metals.sbt ...
+[debug]                           Load.resolveProject(scalacontest-build-build-build) took 4.4488ms
+[debug]                         Load.loadTransitive: finalizeProject(Project(id scalacontest-build-build-build, base: E:\code\ScalaContest\project\project\project, plugins: List(<none>))) took 6.2705ms
+[debug] [Loading] Done in E:\code\ScalaContest\project\project\project, returning: (scalacontest-build-build-build)
+[debug]                       Load.loadUnit: loadedProjectsRaw took 119.4585ms
+[debug]                       Load.loadUnit: cleanEvalClasses took 4.8387ms
+[debug]                     Load.loadUnit(file:/E:/code/ScalaContest/project/project/project/, ...) took 146.6619ms
+[debug]                   Load.apply: load took 147.6693ms
+[debug]                   Load.apply: resolveProjects took 0.0859ms
+[debug]                   Load.apply: finalTransforms took 5.9433ms
+[debug]                   Load.apply: config.delegates took 0.2494ms
+[debug]                   Load.apply: Def.make(settings)... took 67.2938ms
+[debug]                   Load.apply: structureIndex took 23.9038ms
+[debug]                   Load.apply: mkStreams took 0.0022ms
+[info] loading project definition from E:\code\ScalaContest\project\project\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]                 Load.loadUnit: plugins took 533.4158ms
+[debug]                 Load.loadUnit: defsScala took 0.0021ms
+[debug] [Loading] Scanning directory E:\code\ScalaContest\project\project
+[debug]                   Load.loadUnit: mkEval took 0.147ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in E:\code\ScalaContest\project\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.2255 ms
+[info] loading settings for project scalacontest-build-build from metals.sbt ...
+[debug]                     Load.resolveProject(scalacontest-build-build) took 19.1221ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id scalacontest-build-build, base: E:\code\ScalaContest\project\project, plugins: List(<none>))) took 20.6928ms
+[debug] [Loading] Done in E:\code\ScalaContest\project\project, returning: (scalacontest-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 48.5744ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 1.9824ms
+[debug]               Load.loadUnit(file:/E:/code/ScalaContest/project/project/, ...) took 584.5424ms
+[debug]             Load.apply: load took 585.3591ms
+[debug]             Load.apply: resolveProjects took 0.0728ms
+[debug]             Load.apply: finalTransforms took 10.6788ms
+[debug]             Load.apply: config.delegates took 0.312ms
+[debug]             Load.apply: Def.make(settings)... took 61.899ms
+[debug]             Load.apply: structureIndex took 16.0808ms
+[debug]             Load.apply: mkStreams took 0.0031ms
+[info] loading project definition from E:\code\ScalaContest\project\project
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@6ed51944, check cycles: false, forcegc: true
+[success] Generated .bloop\scalacontest-build-build.json
+[success] Total time: 1 s, completed Oct 2, 2021, 4:46:47 PM
+[debug] Running task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@b77b0a0, check cycles: false, forcegc: true
+[debug]           Load.loadUnit: plugins took 1724.6976ms
+[debug]           Load.loadUnit: defsScala took 0.006ms
+[debug] [Loading] Scanning directory E:\code\ScalaContest\project
+[debug]             Load.loadUnit: mkEval took 0.2881ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in E:\code\ScalaContest\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.0334 ms
+[info] loading settings for project scalacontest-build from metals.sbt,plugins.sbt,idea.sbt ...
+[debug]               Load.resolveProject(scalacontest-build) took 21.9213ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id scalacontest-build, base: E:\code\ScalaContest\project, plugins: List(<none>))) took 23.3509ms
+[debug] [Loading] Done in E:\code\ScalaContest\project, returning: (scalacontest-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 1601.691ms
+[debug]           Load.loadUnit: cleanEvalClasses took 4.369ms
+[debug]         Load.loadUnit(file:/E:/code/ScalaContest/project/, ...) took 3332.3875ms
+[debug]       Load.apply: load took 3333.2564ms
+[debug]       Load.apply: resolveProjects took 0.0602ms
+[debug]       Load.apply: finalTransforms took 10.1341ms
+[debug]       Load.apply: config.delegates took 0.2473ms
+[debug]       Load.apply: Def.make(settings)... took 44.8206ms
+[debug]       Load.apply: structureIndex took 17.2486ms
+[debug]       Load.apply: mkStreams took 0.0018ms
+[info] loading project definition from E:\code\ScalaContest\project
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@44ba9f25, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[success] Generated .bloop\scalacontest-build.json
+[success] Total time: 5 s, completed Oct 2, 2021, 4:46:54 PM
+[debug] Running task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@7c55e559, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 8549.0147ms
+[debug]     Load.loadUnit: defsScala took 0.0023ms
+[debug] [Loading] Scanning directory E:\code\ScalaContest
+[debug]       Load.loadUnit: mkEval took 0.1634ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in E:\code\ScalaContest, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbtide.ConfigPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.2224 ms
+[info] loading settings for project scalacontest from build.sbt ...
+[debug]         Load.resolveProject(scalacontest) took 47.4934ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id scalacontest, base: E:\code\ScalaContest, plugins: List(<none>))) took 49.5353ms
+[debug] [Loading] Done in E:\code\ScalaContest, returning: (scalacontest)
+[debug]     Load.loadUnit: loadedProjectsRaw took 639.857ms
+[debug]     Load.loadUnit: cleanEvalClasses took 8.6413ms
+[debug]   Load.loadUnit(file:/E:/code/ScalaContest/, ...) took 9197.9977ms
+[debug] Load.apply: load took 9199.0551ms
+[debug] Load.apply: resolveProjects took 0.0685ms
+[debug] Load.apply: finalTransforms took 15.5587ms
+[debug] Load.apply: config.delegates took 0.1724ms
+[debug] Load.apply: Def.make(settings)... took 75.3069ms
+[debug] Load.apply: structureIndex took 14.9034ms
+[debug] Load.apply: mkStreams took 0.0016ms
+[info] set current project to ScalaContest (in build file:/E:/code/ScalaContest/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 50546 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 50546, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to ScalaContest (in build file:/E:/code/ScalaContest/)
+[debug] > Exec(idea-shell, None, None)

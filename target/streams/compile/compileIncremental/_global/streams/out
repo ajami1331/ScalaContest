@@ -1,0 +1,33 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 4 products, 1 sources, 1 libraries
+[debug] current source = Set(${BASE}/src/main/scala/Main.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/Main.scala), unmodified = ...),Set(${BASE}/target/scala-2.12/classes/Main$.class, ${BASE}/target/scala-2.12/classes/Solution$$anon$1.class, ${BASE}/target/scala-2.12/classes/Solution.class),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(${BASE}/src/main/scala/Main.scala)
+[debug] Invalidated products: Set(${BASE}/target/scala-2.12/classes/Main$.class, ${BASE}/target/scala-2.12/classes/Solution$$anon$1.class, ${BASE}/target/scala-2.12/classes/Solution.class)
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(Solution, Main)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(${BASE}/src/main/scala/Main.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] all 1 sources are invalidated
+[debug] Initial set of included nodes: Solution, Main
+[debug] Including Main by Solution
+[debug] Recompiling all sources: number of invalidated sources > 50.0% of all sources
+[debug] compilation cycle 1
+[info] compiling 1 Scala source to E:\code\ScalaContest\target\scala-2.12\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.12:1.5.7:compile for Scala 2.12.1
+[debug] [zinc] Running cached compiler 66c65c48 for Scala compiler version 2.12.1
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Users\clown\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.1\scala-library-2.12.1.jar
+[debug] 	-classpath
+[debug] 	E:\code\ScalaContest\target\scala-2.12\classes
+[debug] Scala compilation took 3.320967 s
+[info] done compiling
